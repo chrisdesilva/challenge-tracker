@@ -1,6 +1,7 @@
 Challenge Tracker is a React app that gamifies goals. Users can set points to use as motivation for working toward their goals. Each day, users will tally their points to track their progress and will be able to challenge other users to build accountability.
 
 **Example goal:** User wants to lose 10 pounds in 90 days
+
 **Example points:** 3 points for 30 minutes of exercise, 2 points for 7-9 hours of sleep, 2 points for going sugar-free
 
 # Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
