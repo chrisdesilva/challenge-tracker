@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Challenge Tracker is a React app that gamifies goals. Users can set points to use as motivation for working toward their goals. Each day, users will tally their points to track their progress and will be able to challenge other users to build accountability.
 
-## Available Scripts
+**Example goal:** User wants to lose 10 pounds in 90 days
+**Example points:** 3 points for 30 minutes of exercise, 2 points for 7-9 hours of sleep, 2 points for going sugar-free
 
-In the project directory, you can run:
+# Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-### `npm start`
+I'd LOVE your help on this project! All are welcome to contribute. You can find current issues under the [issues tab](https://github.com/chrisdesilva/challenge-tracker/issues). Just find an issue that you'd like to work on, make a comment to say you're taking it on, and get to it. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+**Would you rather read than watch videos?** Check out this [article](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/).
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork the project by clicking the Fork button up at the top of the screen.
+2. Clone your fork with `git clone [code-you-copied-from-clone-button]`
+3. `cd challenge-tracker` to make sure you are in the right directory
+4. Add an `upstream` remote for keeping your local repo up-to-date:
+  `git remote add upstream git@github.com:chrisdesilva/challenge-tracker.git`
+5. Run `npm install` to install project dependencies
+6. Run `npm start` to start your dev environment 
+7. Begin making magic
 
-### `npm run build`
+## Creating a New Pull Request
+1. Make sure you are on the `master` branch and have pulled the latest changes:
+  `git checkout master && git pull upstream master`
+2. Install any new dependencies: `npm install`
+3. Create a new branch off of the `master` branch for the issue you are working on:
+  `git checkout -b [new-branch-name]`
+  Make sure your branch name relates to the issue. For example, if your issue is "Convert goals component to a functional component using Hooks", your branch name could be `convert-goals-component`.
+4. Make your changes. Be sure to check for any errors and address them as they come up.
+5. Add and commit your changes: `git add [file-name] && git commit -m [your-message]
+  Use present tense with your commits ("convert goals component" instead of "converts" or "converted").
+6. Push your branch to your fork: `git push -u origin [branch-name]`
+7. Open a new pull request (PR) against the `master` branch from your fork using the GitHub user interface.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
