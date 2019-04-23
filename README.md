@@ -18,23 +18,21 @@ I'd LOVE your help on this project! All are welcome to contribute. You can find 
 2. Clone your fork with `git clone [code-you-copied-from-clone-button]`
 3. `cd challenge-tracker` to make sure you are in the right directory
 4. Add an `upstream` remote for keeping your local repo up-to-date:
-  
-  `git remote add upstream git@github.com:chrisdesilva/challenge-tracker.git`
+  > `git remote add upstream git@github.com:chrisdesilva/challenge-tracker.git`
 5. Run `npm install` to install project dependencies
 6. Run `npm start` to start your dev environment 
 7. Begin making magic
 
 ## Creating a New Pull Request
 1. Make sure you are on the `master` branch and have pulled the latest changes:
-  `git checkout master && git pull upstream master`
+  > `git checkout master && git pull upstream master`
 2. Install any new dependencies: `npm install`
 3. Create a new branch off of the `master` branch for the issue you are working on:
-  `git checkout -b [new-branch-name]`
+  > `git checkout -b [new-branch-name]`
   Make sure your branch name relates to the issue. For example, if your issue is "Convert goals component to a functional component using Hooks", your branch name could be `convert-goals-component`.
 4. Make your changes. Be sure to check for any errors and address them as they come up.
 5. Add and commit your changes: 
-
-`git add [file-name] && git commit -m [your-message]`
+> `git add [file-name] && git commit -m [your-message]`
   Use present tense with your commits ("convert goals component" instead of "converts" or "converted").
 6. Push your branch to your fork: `git push -u origin [branch-name]`
 7. Open a new pull request (PR) against the `master` branch from your fork using the GitHub user interface.
